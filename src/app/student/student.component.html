@@ -1,1 +1,12 @@
-<p>student works!</p>
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>mobile</th>
+    </tr>
+    <tr *ngFor = "let st of getStudentList()">
+        <td>{{st.id}}</td>
+        <td>{{st.name}}</td>
+        <td>{{st.mobile}}</td>
+    </tr>
+</table>
